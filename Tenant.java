@@ -10,6 +10,7 @@ public class Tenant {
 		this.name = name;
 		this.id = id;
 		this.unpaidAmount = unpaidAmount;
+		this.feeBill = new ArrayList<>();
 	}
 	
 	public String getName() {
